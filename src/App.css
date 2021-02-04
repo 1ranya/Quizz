@@ -1,0 +1,135 @@
+.hero{
+  background-color: #84a59d !important  ;
+}
+.hero-main{
+  background-image: url("../src/assets/Untitled.svg");
+  background-size: cover;
+}
+.hero-addQuestion{
+  background-image: url("../src/assets/addQuestion.svg");
+  background-size: cover;
+}
+.hero-login{
+  background-image: url("../src/assets/login2.svg");
+  background-size: cover;
+  background-color: #F7EDE2 !important;
+}
+.hero-signin{
+  background-image: url("../src/assets/signup.svg");
+  background-size: cover;
+}
+.title{
+  color : #F28482 !important; 
+  font-family: 'Anton', sans-serif;
+}
+.subtitle{
+  color : black !important; 
+  font-family: 'Roboto', sans-serif;
+}
+.questionsSub{
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+}
+.questionTitle{
+  color : #f6bd60 !important; 
+  font-family: 'Anton', sans-serif;
+  font-size: 45px;
+}
+.cheersMessage{
+  z-index: 2;
+  text-align:center;
+}
+.cheersBlock{
+  position:relative
+}
+.cheersImg{
+  width: 40%;
+  height: 40%;
+  z-index: 1;
+}
+.retourLigne{
+  word-wrap:break-word;
+}
+.startWithTimerDiv, .startWithoutTimerDiv{ 
+  background-color:#f6bd60;
+  font-family: 'Nunito', sans-serif;
+  font-size: 35px;
+}
+.startWithTimerDiv:hover,.startWithoutTimerDiv:hover{
+  background-color:#F7EDE2 ;
+  color: #f28482;
+  animation-name: transitionQuestionType;
+  animation-duration: 0.7s;
+}
+.espacement{
+  width: 5%;
+}
+.icon, .fa-envelope {
+  color: black !important;
+}
+ion-icon {
+  font-size: 50px;
+  margin-top: 0px !important;
+}
+.trait
+{
+background-color: black;
+height: 1pt;
+width: 100%;
+}
+.block{
+  display: inline
+}
+.counter{
+  font-size: 500%;
+  color : #f6bd60 !important; 
+}
+.chartCard{
+  background-color: rgba(247, 237, 226, 0.7) ;
+}
+.chartTitle{
+  color : #F28482 !important; 
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+}
+.chartSub{
+  font-size: 30px;
+}
+.typeQuestions{
+  padding: 3rem !important ;
+}
+.formQuestion{
+   margin: 259px auto; 
+}
+#questionAposerTitle, #actionTitle{
+  color :black !important; 
+  font-family: 'Anton', sans-serif;
+  font-size: 45px;
+}
+.formTitle{
+  color :black !important; 
+  font-family: 'Anton', sans-serif;
+  font-size: 45px;
+}
+.formSignTitle{
+  color :black !important; 
+  font-family: 'Anton', sans-serif;
+  font-size: 26px;
+}
+.formSignin{
+  margin: 10.5rem auto !important;
+}
+.formLogin{
+  margin-top: 15rem;
+}
+@keyframes transitionQuestionType {
+  from {background-color: #f6bd60}
+  to {background-color: #F7EDE2}
+}
+/* @media(max-width:600px){
+  .hero-login{
+    background-image: url("../src/assets/loginMobile.svg");
+    width: 40rem;
+    background-color: #F7EDE2 !important;
+  }
+} */
